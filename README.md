@@ -8,3 +8,8 @@ Team Members:
 - Brandon DiDario *(ME)*
 - Raymond Ringston *(CPE)*
 - Leon Selyomin *(EE)*
+
+---
+# Simulation
+
+The simulation folder of this repository contains all of the simulations used to test and prototype our final design. This includes the electrical simulations of the [PFN]('\Simluation') and the amplifier, both performed in MATLAB. These simulations will continue to be refined as we reach closer towards our final iteration.
