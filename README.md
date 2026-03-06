@@ -3,8 +3,8 @@
 
 ---
 Team Members:
-- Andrea Antropow (EE)
-- Kaitlyn Bjerke (EE)
-- Brandon DiDario (ME)
-- Raymond Ringston (CPE)
-- Leon Selyomin (EE)
+- Andrea Antropow *(EE)*
+- Kaitlyn Bjerke *(EE)*
+- Brandon DiDario *(ME)*
+- Raymond Ringston *(CPE)*
+- Leon Selyomin *(EE)*
