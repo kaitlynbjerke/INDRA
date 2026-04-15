@@ -83,23 +83,17 @@ void app_main(void)
     // ---------------- BURST CONTROL LOOP ----------------
     while (1)
     {
-        // =========================
         // CHARGE PHASE
-        // =========================
         gpio_set_level(CHARGE_PIN, 1);
         gpio_set_level(GATE_PIN, 0);
         vTaskDelay(pdMS_TO_TICKS(500));
 
-        // =========================
         // FIRE / GATE OPEN
-        // =========================
         gpio_set_level(CHARGE_PIN, 0);
         gpio_set_level(GATE_PIN, 1);
         vTaskDelay(pdMS_TO_TICKS(5));
 
-        // =========================
         // SAFE STATE
-        // =========================
         gpio_set_level(GATE_PIN, 0);
         gpio_set_level(CHARGE_PIN, 0);
         vTaskDelay(pdMS_TO_TICKS(500));
